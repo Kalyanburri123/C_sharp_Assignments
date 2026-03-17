@@ -54,7 +54,7 @@ namespace ArrayOfAccounts
             }
         }
 
-        // 🔹 Create Account
+        // Create Account
         static void CreateAccount()
         {
             if (count == accounts.Length)
@@ -80,7 +80,7 @@ namespace ArrayOfAccounts
             Console.WriteLine("Account Number: " + accNo);
         }
 
-        // 🔹 Generate Unique Account Number
+        //Generate Unique Account Number
         static string GenerateAccountNumber()
         {
             Random rnd = new Random();
@@ -106,7 +106,7 @@ namespace ArrayOfAccounts
             }
         }
 
-        // 🔹 Find Account
+        //Find Account
         static Account FindAccount(string accNo)
         {
             for (int i = 0; i < count; i++)
@@ -117,7 +117,7 @@ namespace ArrayOfAccounts
             return null;
         }
 
-        // 🔹 View Balance
+        //View Balance
         static void ViewBalance()
         {
             Console.Write("Enter Account Number: ");
@@ -131,7 +131,7 @@ namespace ArrayOfAccounts
                 Console.WriteLine("Account not found");
         }
 
-        // 🔹 Deposit
+        //Deposit
         static void Deposit()
         {
             Console.Write("Enter Account Number: ");
@@ -151,7 +151,7 @@ namespace ArrayOfAccounts
             }
         }
 
-        // 🔹 Withdraw
+        //Withdraw
         static void Withdraw()
         {
             Console.Write("Enter Account Number: ");

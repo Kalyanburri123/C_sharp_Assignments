@@ -22,12 +22,14 @@ namespace ArrayOfAccounts
             this.accountNumber = accNo;
         }
 
+        //To deposit into the account
         public void Deposit(double amount)
         {
             balance += amount;
             Console.WriteLine("Amount Deposited Successfully");
         }
 
+        //To withdraw from the account.
         public void Withdraw(double amount)
         {
             if (balance - amount >= 500)
