@@ -50,7 +50,7 @@ namespace MultipleInheritence
                 Console.WriteLine("Incorrect Ride id, Please enter valid Ride id");
                 id = int.Parse(Console.ReadLine());
             }
-            Console.WriteLine("Success!,Your ride is Canceled");
+            Console.WriteLine("Success! Your ride is Cancelled");
         }
 
         public double CalculateFare(double distance)
