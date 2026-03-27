@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="CollectionsPoc/CollectionsPoc.csproj" />
+  <Project Path="EmployeePolymorphismAndCollectionPoc/EmployeePolymorphism.csproj" />
+</Solution>
