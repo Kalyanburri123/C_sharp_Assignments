@@ -17,19 +17,19 @@ namespace CollectionsPoc
         {
             List<Student> students = new List<Student>();
 
-            // CREATE
+            // CREATING THE LIST.
             students.Add(new Student { Id = 1, Name = "Kalyan", Marks = 45 });
             students.Add(new Student { Id = 2, Name = "Vikram", Marks = 39 });
             students.Add(new Student { Id = 3, Name = "Akshith", Marks = 95 });
 
-            // READ
+            // READING FROM THE LIST.
             Console.WriteLine("Student List:");
             foreach (var student in students)
             {
                 Console.WriteLine(student);
             }
 
-            // UPDATE
+            // UPDATING THE DATA FROM LIST.
             Console.WriteLine("\nEnter the Id to update:");
             int id;
             while (!int.TryParse(Console.ReadLine(), out id) || !students.Any(s => s.Id == id))
@@ -58,7 +58,7 @@ namespace CollectionsPoc
                 Console.WriteLine("Same name entered. No changes made.");
             }
 
-            // DELETE
+            // DELETING THE DATA FROM LIST.
             Console.WriteLine("\nEnter the Id to delete:");
             int deleteId;
 
